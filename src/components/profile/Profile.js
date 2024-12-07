@@ -30,10 +30,10 @@ const Profile = () => {
             <div className='container'>
                 <div className='left-part'>
                     <CreatePost />
-                    {userProfile?.posts?.map((post) => {
+                    {/* {userProfile?.posts?.map((post) => {
                         return <Post post={post} key={post?._id} />;
-                    })}
-                    {/* <Post post={userProfile?.posts}/> */}
+                    })} */}
+                    <Post post={userProfile?.posts}/>
                 </div>
                 <div className='right-part'>
                     <div className='profile-card'>
