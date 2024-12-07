@@ -1,0 +1,29 @@
+.Feed {
+    height: calc(100vh - 60px);
+
+	.container {
+		display: flex;
+        
+
+		.left-part {
+
+			flex: 2;
+			
+		}
+		.right-part {
+
+			flex: 1;
+			
+			.following {
+
+				margin-top: 20px;
+				padding-left: 20px;
+			}
+            .suggestion {
+
+				margin-top: 20px;
+				padding-left: 20px;
+			}
+		}
+	}
+}
